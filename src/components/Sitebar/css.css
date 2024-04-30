@@ -1,0 +1,28 @@
+.sitebar{
+    width: 16%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding-top: 59px;
+}
+
+
+.sitebar > button{
+    width: 80%;
+    display: flex;
+    align-items: start;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    background: none;
+    font-size: 23px;
+    gap: 21px;
+    height: 50px;
+}
+.sitebar > button:hover{
+    background-color: seagreen;
+    color: white;
+}

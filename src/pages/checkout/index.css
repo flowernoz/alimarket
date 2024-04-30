@@ -1,0 +1,251 @@
+.checkout {
+  width: 100%;
+}
+@scope (.checkout) {
+  .title {
+    font-size: 36.65px;
+    font-weight: 500;
+  }
+
+  .checkout_left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  .checkout_left p {
+    font-size: 22.65px;
+    font-weight: 500;
+    line-height: 27px;
+  }
+  .cities {
+    width: 533px;
+    height: 49px;
+    border: 0.5px solid #767676;
+    outline: none;
+    border-radius: 5px;
+    background: rgb(255, 254, 250);
+    font-size: 22.65px;
+    font-weight: 500;
+    line-height: 27px;
+    margin: 21px 0 24px;
+    text-indent: 28px;
+  }
+  .chance {
+    width: 533px;
+    height: 248px;
+    border: 0.5px solid #767676;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 18px;
+    background: rgb(255, 251, 242);
+    margin: 15px 0 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 16.5px;
+  }
+  input[type="radio"] {
+    width: 28px;
+    height: 28px;
+    accent-color: #fd9803;
+  }
+  label {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  label span {
+    font-size: 22.65px;
+    font-weight: 500;
+    line-height: 27px;
+  }
+  .chance label small {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+  }
+  .chance label small i {
+    color: rgb(46, 204, 113);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    font-style: normal;
+  }
+  .radio_text {
+    display: flex;
+    flex-direction: column;
+  }
+  ul {
+    width: 420px;
+    height: 135px;
+  }
+  ul li {
+    font-size: 22.65px;
+    font-weight: 500;
+    line-height: 27.18px;
+    color: #585858;
+    list-style-type: disc;
+    list-style-position: inside;
+  }
+  .door {
+    width: 533px;
+    height: 110px;
+    background: rgb(255, 251, 242);
+    border: 0.5px solid #767676;
+    border-radius: 5px;
+    padding: 13px;
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    margin-bottom: 20px;
+  }
+  p ~ small {
+    color: rgb(88, 88, 88);
+    font-size: 20px;
+    font-weight: 500;
+    margin: 14px 0 24px;
+  }
+  button {
+    width: 531px;
+    height: 49px;
+    border: 1px solid #767676;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    font-size: 22.65px;
+    font-weight: 400;
+  }
+  .surname {
+    margin-top: 30px;
+  }
+  small + button {
+    margin-bottom: 19px;
+  }
+  label ~ input[type="text"] {
+    background: #000;
+    margin: 15px 0 27px;
+    width: 533px;
+    height: 49px;
+    border: 0.5px solid #767676;
+    border-radius: 5px;
+    background: rgb(255, 254, 250);
+    color: rgb(88, 88, 88);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-indent: 13px;
+  }
+  input[type="text"] ~ label,
+  .surname {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+  mark {
+    color: rgb(253, 152, 3);
+  }
+  .payment {
+    width: 533px;
+    height: 191px;
+    border: 0.5px solid #767676;
+    border-radius: 5px;
+    background: rgb(255, 251, 242);
+    padding: 20px 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 30px 0px 25px;
+  }
+  .payCarts {
+    width: 249px;
+    height: 46px;
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+  }
+  .payCarts button{
+    width: 70px;
+    height: 40px;
+  }
+  .payCarts  img{
+    width: 100%;
+    height: 100%;
+  }
+  .cash {
+    width: 533px;
+    height: 149px;
+    border: 0.5px solid #767676;
+    border-radius: 5px;
+    background: rgb(255, 251, 242);
+    display: flex;
+    flex-direction: column;
+    padding: 25px 13px;
+    gap: 14px;
+    margin-bottom: 40px;
+  }
+  .cash ~ select {
+    width: 533px;
+    height: 49px;
+    border: 0.5px solid #000000;
+    border-radius: 5px;
+    background: rgb(255, 254, 250);
+    font-size: 22.65px;
+    font-weight: 500;
+    line-height: 27px;
+    text-indent: 17px;
+    margin-bottom: 27px;
+  }
+  .booking {
+    width: 533px;
+    height: 376px;
+    border: 1px solid #9c9c9c;
+    border-radius: 4px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    padding: 16px 24.58px;
+  }
+  .booking button {
+    width: 489.99px;
+    height: 49px;
+    border: 1px solid #767676;
+    border-radius: 5px;
+    background: rgb(253, 152, 3);
+    font-size: 22.65px;
+    font-weight: 400;
+    line-height: 27px;
+  }
+  .product_data {
+    margin: 12px 0px 19px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .delivering_day {
+    width: 530px;
+    height: 36px;
+    border-top: 1px solid #00000063;
+    border-bottom: 1px solid #00000063;
+    margin-left: -24.5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 23px;
+    margin-bottom: 10px;
+  }
+  .booking input {
+    width: 489.99px;
+    height: 49px;
+    box-shadow: 0 0 2px #000000;
+    border-radius: 5px;
+    background: rgb(255, 254, 250);
+    color: rgb(181, 181, 181);
+    font-size: 18px;
+    font-weight: 400;
+    text-indent: 21px;
+    margin-bottom: 30px;
+  }
+}

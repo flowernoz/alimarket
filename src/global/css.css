@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;600;800;900&display=swap);
+
+:root {
+  --success: #2ecc71;
+  --error: #e74c3c;
+  --warn: #f39c12;
+  --info: #73af00;
+  --primary: #0085af;
+  --secondary: #5d6661;
+  --black: #363636;
+  --light: #e7e7e7;
+  --light-2: #f2f2f2;
+  --dimmed: #b7c9b3;
+  --primary-2: #3498db;
+  --loader-color: var(--primary);
+  --swiper-pagination-color: #fff;
+  --swiper-pagination-bullet-inactive-color: #e4e4e4;
+  --loader-size: 48px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  font-family: "Lato", sans-serif;
+  background: none;
+}
+
+/* reset styles */
+select,
+label,
+button {
+  cursor: pointer;
+  border: none;
+  color: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  font-family: Poppins;
+}
+textarea,
+input {
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+  font-family: Poppins;
+  text-transform: inherit;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+a {
+  color: inherit;
+  font-size: inherit;
+}

@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+button {
+  cursor: pointer;
+}
+body {
+  display: flex;
+  justify-content: center;
+  /* background-color: gray; */
+}
+
+#root {
+  max-width: 1920px;
+  height: 100vh;
+  width: 100%;
+}
+.main {
+  max-width: 1920px;
+  width: 100%;
+  height: auto;
+
+  background: rgb(242, 242, 242);
+  display: flex;
+  justify-content: space-between;
+}
+.right {
+  width: 20%;
+  height: 500px;
+  background-color: white;
+}
+
+#app {
+  width: 100%;
+  height: auto;
+}
